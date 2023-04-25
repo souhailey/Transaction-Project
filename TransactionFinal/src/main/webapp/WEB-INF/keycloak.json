@@ -1,0 +1,10 @@
+{
+  "realm": "TransactionRealm",
+  "auth-server-url": "http://localhost:8080/auth",
+  "ssl-required": "external",
+  "resource": "TransactionFinal",
+  "credentials": {
+    "secret": "GsShOsfXe6lfAzppC4Yz6VSmAA9wK6AQ"
+  },
+  "confidential-port": 0
+}

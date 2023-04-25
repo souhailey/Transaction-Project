@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Transaction</title>
+<link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+
+<body>
+	<form method="post" action="AddServlet">
+		Reference : <input type="text" name="Ref"><br> 
+		Compte Debiteur : <input type="text" name="CompteDeb"><br>
+		Compte Crediteur : <input type="text" name="CompteCred"><br>
+		Montant : <input type="text" name="Montant"><br>
+		Devise <select name="Devise">
+			<option value="Euro">Euro</option>
+			<option value="Dollar">Dollar</option>
+			<option value="Moroccan Dirham">Morrocan Dirham</option>
+			<option value="British Pound">British Pound</option>
+		</select> <br>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
